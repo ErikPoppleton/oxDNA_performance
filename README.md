@@ -29,4 +29,12 @@ Ocassionally, the simulations here will crash due to too many neighbors in the c
 ### DNA origami
 Full DNA origamis are around 14000 nucleotides.  If you add an example origami to the test, I would be happy for the pull request.
 
+## Previous results
+
+### Single process runtime vs nucleotide number
+![](example_results/single_process.png)
+
+### Multiprocess runtime vs number of processes
+![](example_results/oxDNA_speedtest.png)
+
 

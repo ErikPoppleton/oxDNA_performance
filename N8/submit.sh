@@ -4,7 +4,7 @@
 #SBATCH -e ./job.%j.err
 # Initial working directory:
 # Job name
-#SBATCH -J speed
+#SBATCH -J N8
 #
 #SBATCH -N 1
 #SBATCH -n 1
@@ -19,9 +19,6 @@
 #SBATCH --time=1-00:00:00
 
 module purge
-module load anaconda/3
 module load cuda/11.4
-
-conda activate oxDNA
 
 ~/software/oxDNA/build/bin/oxDNA input

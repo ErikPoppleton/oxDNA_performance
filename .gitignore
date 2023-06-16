@@ -162,3 +162,4 @@ cython_debug/
 
 cobra/
 N*M*/
+N32768/init_conf_N32768.dat

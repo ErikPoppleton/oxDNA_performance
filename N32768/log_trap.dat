@@ -1,0 +1,170 @@
+
+ERROR: An explicit version must be specified for this module
+
+ Due to many issues in the past when changing default module versions,
+ we now require you to be explicit about the version of the 'anaconda'
+ module you would like to use
+
+ Please specify your desired version when loading the module, for example by
+
+#> module load anaconda/3/2021.11
+
+
+Loading anaconda/3/.noversion
+  ERROR: Module evaluation aborted
+INFO: seeding the RNG with -311924538
+INFO: Initializing backend 
+INFO: Simulation type: MD
+INFO: CUDA backend precision: mixed
+INFO: The generator will try to take into account bonded interactions by choosing distances between bonded neighbours no larger than 2.000000
+INFO: Converting temperature from Celsius (20.000000 C°) to simulation units (0.097717)
+INFO: Running Debye-Huckel at salt concentration =  1
+INFO: Using different widths for major and minor grooves
+INFO: Temperature change detected (new temperature: 20.00 C, 293.15 K), re-initialising the DNA interaction
+DEBUG: Debye-Huckel parameters: Q=0.054300, lambda_0=0.361646, lambda=0.357493, r_high=1.072479, cutoff=2.571515
+DEBUG: Debye-Huckel parameters: debye_huckel_RC=1.608718e+00, debye_huckel_B=8.766182e-03
+INFO: The Debye length at this temperature and salt concentration is 0.357493
+INFO: CUDA device not specified
+INFO: The generator will try to take into account bonded interactions by choosing distances between bonded neighbours no larger than 2.000000
+INFO: Using edge-based approach
+INFO: pid: 29424
+DEBUG: Debye-Huckel parameters: Q=0.054300, lambda_0=0.361646, lambda=0.357493, r_high=1.072479, cutoff=2.571515
+DEBUG: Debye-Huckel parameters: debye_huckel_RC=1.608718e+00, debye_huckel_B=8.766182e-03
+INFO: The Debye length at this temperature and salt concentration is 0.357493
+INFO: (Cells.cpp) N_cells_side: 102, 102, 102; rcut=3.57152, IS_MC: 0
+INFO: N: 524288, N molecules: 65536
+INFO: Using randomly distributed velocities
+INFO: Initial kinetic energy: 153593.795568
+INFO: Choosing device automatically
+INFO: Computer has 1 device
+INFO:  - Trying device 0
+INFO:  -- device 0 has properties 8.0
+INFO:  -- using device 0
+INFO:  --- Running on device 0
+INFO: threads_per_block was not specified or set to 0. The default value (64) will be used
+INFO: CUDA Cells mem: 429.11 MBs, lists mem: 2.00 MBs
+INFO: CUDA max_neigh: 439, max_N_per_cell: 105, N_cells: 1061208 (per side: 102 102 102)
+INFO: Allocated CUDA memory: 3178.36 MBs
+INFO: RELEASE: v3.5.0
+INFO: GIT COMMIT: c65dfd6
+INFO: COMPILED ON: 17/04/23
+INFO: diffusion fixed.. -726254 -726254
+INFO: diffusion fixed.. -725308 -725308
+INFO: diffusion fixed.. -725574 -725574
+INFO: diffusion fixed.. -724965 -724965
+INFO: diffusion fixed.. -725809 -725809
+INFO: diffusion fixed.. -725376 -725376
+INFO: diffusion fixed.. -725367 -725367
+INFO: diffusion fixed.. -725106 -725106
+INFO: diffusion fixed.. -725152 -725152
+INFO: diffusion fixed.. -725029 -725029
+INFO: diffusion fixed.. -725729 -725729
+INFO: diffusion fixed.. -725032 -725032
+INFO: diffusion fixed.. -725174 -725174
+INFO: diffusion fixed.. -725417 -725417
+INFO: diffusion fixed.. -724913 -724913
+INFO: diffusion fixed.. -724973 -724973
+INFO: diffusion fixed.. -725341 -725341
+INFO: diffusion fixed.. -725201 -725201
+INFO: diffusion fixed.. -725303 -725303
+INFO: diffusion fixed.. -724821 -724821
+INFO: diffusion fixed.. -725050 -725050
+INFO: diffusion fixed.. -724898 -724898
+INFO: diffusion fixed.. -725243 -725243
+INFO: diffusion fixed.. -725409 -725409
+INFO: diffusion fixed.. -724936 -724936
+INFO: diffusion fixed.. -725307 -725307
+INFO: diffusion fixed.. -724973 -724973
+INFO: diffusion fixed.. -725071 -725071
+INFO: diffusion fixed.. -725648 -725648
+INFO: diffusion fixed.. -725382 -725382
+INFO: diffusion fixed.. -724911 -724911
+INFO: diffusion fixed.. -725428 -725428
+INFO: diffusion fixed.. -724944 -724944
+INFO: diffusion fixed.. -725221 -725221
+INFO: diffusion fixed.. -725263 -725263
+INFO: diffusion fixed.. -725371 -725371
+INFO: diffusion fixed.. -725454 -725454
+INFO: diffusion fixed.. -725281 -725281
+INFO: diffusion fixed.. -724936 -724936
+INFO: diffusion fixed.. -725099 -725099
+INFO: diffusion fixed.. -725238 -725238
+INFO: diffusion fixed.. -724755 -724755
+INFO: diffusion fixed.. -725280 -725280
+INFO: diffusion fixed.. -725212 -725212
+INFO: diffusion fixed.. -724992 -724992
+INFO: diffusion fixed.. -725131 -725131
+INFO: diffusion fixed.. -725284 -725284
+INFO: diffusion fixed.. -725117 -725117
+INFO: diffusion fixed.. -725192 -725192
+INFO: diffusion fixed.. -725050 -725050
+INFO: diffusion fixed.. -724960 -724960
+INFO: diffusion fixed.. -725018 -725018
+INFO: diffusion fixed.. -724706 -724706
+INFO: diffusion fixed.. -725279 -725279
+INFO: diffusion fixed.. -724775 -724775
+INFO: diffusion fixed.. -724840 -724840
+INFO: diffusion fixed.. -725295 -725295
+INFO: diffusion fixed.. -725395 -725395
+INFO: diffusion fixed.. -725248 -725248
+INFO: diffusion fixed.. -725184 -725184
+INFO: diffusion fixed.. -724650 -724650
+INFO: diffusion fixed.. -725116 -725116
+INFO: diffusion fixed.. -725011 -725011
+INFO: diffusion fixed.. -725388 -725388
+INFO: diffusion fixed.. -724954 -724954
+INFO: diffusion fixed.. -724985 -724985
+INFO: diffusion fixed.. -724637 -724637
+INFO: diffusion fixed.. -725255 -725255
+INFO: diffusion fixed.. -724909 -724909
+INFO: diffusion fixed.. -725530 -725530
+INFO: diffusion fixed.. -725106 -725106
+INFO: diffusion fixed.. -725304 -725304
+INFO: diffusion fixed.. -725102 -725102
+INFO: diffusion fixed.. -725575 -725575
+INFO: diffusion fixed.. -725237 -725237
+INFO: diffusion fixed.. -725475 -725475
+INFO: diffusion fixed.. -725290 -725290
+INFO: diffusion fixed.. -725175 -725175
+INFO: diffusion fixed.. -725021 -725021
+INFO: diffusion fixed.. -724967 -724967
+INFO: diffusion fixed.. -724987 -724987
+INFO: diffusion fixed.. -725281 -725281
+INFO: diffusion fixed.. -725348 -725348
+INFO: diffusion fixed.. -725399 -725399
+INFO: diffusion fixed.. -724724 -724724
+INFO: diffusion fixed.. -724865 -724865
+INFO: diffusion fixed.. -725184 -725184
+INFO: diffusion fixed.. -724999 -724999
+INFO: diffusion fixed.. -725146 -725146
+INFO: diffusion fixed.. -725056 -725056
+INFO: diffusion fixed.. -724763 -724763
+INFO: diffusion fixed.. -724760 -724760
+INFO: diffusion fixed.. -725285 -725285
+INFO: diffusion fixed.. -725669 -725669
+INFO: diffusion fixed.. -725509 -725509
+INFO: diffusion fixed.. -724936 -724936
+INFO: diffusion fixed.. -725150 -725150
+INFO: diffusion fixed.. -724810 -724810
+INFO: diffusion fixed.. -725308 -725308
+INFO: diffusion fixed.. -725648 -725648
+
+INFO: Total Running Time: 8897.4 s, per step: 0.88974 ms
+INFO: Timings, in seconds, by Timer (total, own, spent in children)
+> SimBackend                       8897.398 (100.0%)       25.765 (  0.3%)     8871.632 ( 99.7%)
+***> Hilbert sorting                  9.506 (  0.1%)        9.506 (  0.1%)        0.000 (  0.0%)
+***> Lists                           94.576 (  1.1%)       94.576 (  1.1%)        0.000 (  0.0%)
+***> Thermostat                      28.424 (  0.3%)       28.424 (  0.3%)        0.000 (  0.0%)
+***> Forces                        7064.592 ( 79.4%)     7064.592 ( 79.4%)        0.000 (  0.0%)
+***> First Step                    1410.020 ( 15.8%)     1410.020 ( 15.8%)        0.000 (  0.0%)
+***> Observables                    264.515 (  3.0%)      264.515 (  3.0%)        0.000 (  0.0%)
+
+INFO: END OF THE SIMULATION, everything went OK!
+INFO: Lists updated 78697 times (every ~127.069647 steps)
+INFO: Aggregated I/O statistics (set debug=1 for file-wise information)
+	  5.478 GB written to files
+	  6.115 KB written to stdout/stderr
+	For a total of     0.63 MB/s
+
+Please cite at least the following publication for any work that uses the oxDNA simulation package
+  * E. Poppleton et al., J. Open Source Softw. 8, 4693 (2023), DOI: 10.21105/joss.04693
